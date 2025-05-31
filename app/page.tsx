@@ -35,8 +35,8 @@ export default function Home() {
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
       <Card className="w-full max-w-md">
         <CardHeader>
-          <CardTitle className="text-3xl font-bold text-center">YouTube AI Summarizer</CardTitle>
-          <CardDescription className="text-center">Enter a YouTube URL to get an AI-generated summary</CardDescription>
+          <CardTitle className="text-3xl font-bold text-center">Video Insight generator</CardTitle>
+          <CardDescription className="text-center">Enter a Video URL to get an AI-generated insights</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -72,7 +72,7 @@ export default function Home() {
                   <SelectItem value="video">
                     <div className="flex items-center">
                       <Youtube className="mr-2 h-4 w-4" />
-                      <span>Video Summary</span>
+                      <span>Video insights</span>
                     </div>
                   </SelectItem>
                   <SelectItem value="podcast">
